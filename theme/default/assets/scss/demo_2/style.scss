@@ -1,0 +1,91 @@
+/* === Import Bootstrap functions and variables === */
+
+@import "../../../../node_modules/bootstrap/scss/functions";
+@import "../../../../node_modules/bootstrap/scss/variables";
+/*-------------------------------------------------------------------*/
+
+/* === Import template variables === */
+
+@import "../shared/core/variables";
+@import "../demo_1/variables";
+@import "./variables";
+/*-------------------------------------------------------------------*/
+
+/* === Boostrap Main SCSS === */
+
+@import "../../../../node_modules/bootstrap/scss/bootstrap";
+/*-------------------------------------------------------------------*/
+
+
+/* === Core Files And Mixins === */
+@import "../shared/core/mixins/mixins";
+@import "../shared/core/reset";
+@import "../shared/core/fonts";
+@import "../shared/core/spacing";
+@import "../shared/core/typography";
+@import "../shared/core/animation";
+/*-------------------------------------------------------------------*/
+
+
+@import "../demo_1/partials/header";
+@import "../demo_1/partials/sidebar";
+@import "../demo_1/partials/footer";
+
+
+/* === Component Styles === */
+@import "../shared/components/accordion";
+@import "../shared/components/alert";
+@import "../demo_1/components/alert";
+@import "../shared/components/badge";
+@import "../shared/components/breadcrumb";
+@import "../shared/components/button";
+@import "../shared/components/card";
+@import "../shared/components/dropdown";
+@import "../shared/components/checkbox-radio";
+@import "../shared/components/input";
+@import "../shared/components/kanban_board";
+@import "../shared/components/modal";
+@import "../demo_1/components/modal";
+@import "../shared/components/pagination";
+@import "../shared/components/progress";
+@import "../shared/components/tab";
+@import "../shared/components/table";
+@import "../shared/components/timeline";
+/*-------------------------------------------------------------------*/
+
+
+/* === Plugin Overrides === */
+@import "../shared/components/plugin-overrides/switchery";
+@import "../shared/components/plugin-overrides/bootstrap-tag-input";
+@import "../shared/components/plugin-overrides/select2";
+@import "../shared/components/plugin-overrides/no-ui-slider";
+@import "../shared/components/plugin-overrides/datepicker";
+@import "../shared/components/plugin-overrides/summernote";
+@import "../shared/components/plugin-overrides/wizard";
+@import "../shared/components/plugin-overrides/jquery-toast";
+@import "../demo_1/components/plugin-overrides/jquery-toast";
+@import "../shared/components/plugin-overrides/full-calendar";
+@import "../demo_1/components/plugin-overrides/full-calendar";
+@import "../shared/components/plugin-overrides/data-table";
+@import "../shared/components/plugin-overrides/chartist";
+@import "../shared/components/plugin-overrides/c3-charts";
+@import "../shared/components/plugin-overrides/simplemde";
+@import "../shared/components/plugin-overrides/tinymce";
+@import "../shared/components/plugin-overrides/chartjs";
+/*-------------------------------------------------------------------*/
+
+@import "../demo_1/layout";
+@import "../shared/template";
+@import "../shared/utilities";
+@import "../shared/demo";
+
+
+/* === Pages === */
+@import "../shared/pages/auth-theme";
+@import "../shared/pages/error";
+@import "../shared/pages/dashboard";
+@import "../shared/pages/mail";
+@import "../demo_1/components/pages/mail";
+@import "../shared/pages/calendar-page";
+@import "../shared/pages/docs";
+/*-------------------------------------------------------------------*/

@@ -1,0 +1,39 @@
+$body-text-color: #fff;
+$card-bg: #121729;
+$card-title-color: #b7b7b7;
+$template-body-color: #0c111f;
+$body-accent-color:$template-body-color;
+$border-color:#000;
+$card-box-shadow:0 0 10px 0px rgba(4, 2, 2, 0.2);
+$card-border-color:hsl(221, 30%, 11%);
+$text-gray: #cccccc;
+$dropdown-menu-bg: $card-bg;
+$dropdown-item-hover-bg: lighten($dropdown-menu-bg, 2%);
+$progress-bg: lighten($card-bg, 7%);
+$input-bg: lighten($card-bg, 7%);
+$input-border-color:$border-color;
+
+////////// SIDEBAR VARIABLES //////////
+$sidebar-bg: #0e1627;
+$sidebar-boder-seperator-color: $border-color;
+$brand-header-bg: $sidebar-bg;
+$sidebar-link-color: #f1f1f1;
+$sidebar-active-link-color: theme-color(primary);
+$sidebar-link-submenu-bg: darken($brand-header-bg, 2%);
+$sidebar-link-active-bg: darken($brand-header-bg, 4%);
+$sidebar-footer-bg:darken($sidebar-bg, 0%);
+////////// SIDEBAR VARIABLES //////////
+
+////////// HEADER VARIABLES //////////
+$header-bg: $template-body-color;
+////////// HEADER VARIABLES //////////
+
+
+////////// TABLE VARIABLES //////////
+$table-border-color: $border-color;
+$table-accent-bg: darken($body-accent-color, 1%);
+$table-hover-bg:$table-accent-bg;
+$table-head-bg: #e1e4e6;
+$table-head-color: $gray-700;
+$table-cell-color: $body-text-color;
+////////// TABLE VARIABLES //////////
