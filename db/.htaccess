@@ -1,0 +1,3 @@
+RewriteRule ^link/.*$ - [F,L]
+RewriteRule ^site/.*$ - [F,L]
+RewriteRule ^user/.*$ - [F,L]

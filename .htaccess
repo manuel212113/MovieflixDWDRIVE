@@ -1,0 +1,9 @@
+php_value session.cookie_secure 0
+RewriteEngine On
+#TO BLOCK LOGIN URL DELETE THIS LINE STARTING FROM "#" #RewriteRule login.php?$ - [F,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^dl/(.*?)/?$ dl.php?id=$1 [QSA]
+RewriteRule ^d/(.*?)/?$ dl.php?short=$1 [QSA]
+RewriteRule ^embed/(.*?)/?$ embed.php?id=$1 [QSA]
+RewriteRule ^e/(.*?)/?$ embed.php?short=$1 [QSA]
